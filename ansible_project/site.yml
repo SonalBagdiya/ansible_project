@@ -1,0 +1,8 @@
+---
+- hosts:
+    - ubuntu2
+    - ubuntu3    
+  become: yes
+  user: vagrant
+  roles:
+    - common
